@@ -97,3 +97,24 @@ h5 {
   border-radius: 0;
 
 }
+
+.inline-block {
+  display: inline-block;
+}
+
+.footer-text {
+  color: #ffffff;
+}
+
+.footer-box {
+  background-color: #1e1e1e;
+  padding: 5px 25px 35px 15px;
+}
+
+.social-links{
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
