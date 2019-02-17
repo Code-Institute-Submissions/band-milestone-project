@@ -1,17 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Nunito|Righteous|Exo:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
-
-li {
-  float: left;
-  color: white;
-}
-
-
-li a:hover {
-  background-color: #111111;
+  text-align: center;
 }
 
 .main-logo{
@@ -26,4 +20,35 @@ li a:hover {
   background-color: black;
   width:100%;
   height: 100vh;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+ul li a {
+  font-size: 20px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.89);
+  text-transform: uppercase;
+  font-family: "Righteous", sans-serif;
+}
+
+.orange-text{
+  color: #ff6600;
+}
+
+.navbar-inverse .navbar-nav li a {
+    color: #ffffff;
+}
+
+.dividing-line {
+  height: 1px;
+  background-color: #5dc41d;
 }
