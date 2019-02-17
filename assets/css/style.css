@@ -52,3 +52,48 @@ ul li a {
   height: 1px;
   background-color: #5dc41d;
 }
+
+.box-heading {
+  padding: 20px 10% 35px 10%;
+}
+
+.box {
+  background-color: #121110;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.main-text {
+  font-family: "Exo", sans-serif;
+  font-weight: 500;
+  color: #fafafa;
+  font-size: 22px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  padding: 0;
+  margin: 15px 0 15px 0;
+  color: #f27da6;
+  font-family: "Righteous", sans-serif;
+  font-weight: 500;
+}
+
+.float-right {
+  float: right;
+}
+
+
+.btn {
+  margin: 15px;
+  background-color: #f27da6;
+  color: #ffffff;
+  border-color: #f27da6;
+  border-radius: 0;
+
+}
