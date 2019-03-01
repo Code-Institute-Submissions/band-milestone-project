@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Nunito|Righteous|Exo:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -8,7 +9,7 @@ ul {
   text-align: center;
 }
 
-.main-logo{
+.main-logo {
   padding-top: 15px;
 }
 
@@ -18,7 +19,7 @@ ul {
   background-size: contain;
   background-position: center;
   background-color: black;
-  width:100%;
+  width: 100%;
   height: 100vh;
 }
 
@@ -40,12 +41,12 @@ ul li a {
   font-family: "Righteous", sans-serif;
 }
 
-.orange-text{
+.orange-text {
   color: #ff6600;
 }
 
 .navbar-inverse .navbar-nav li a {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .dividing-line {
@@ -72,11 +73,25 @@ ul li a {
   font-size: 18px;
 }
 
+.about-text {
+  font-family: "Exo", sans-serif;
+  font-weight: 500;
+  color: #fafafa;
+  font-size: 12px;
+  padding: 10px;
+  margin: 10px 0px 10px 0px;
+  background-image: url("../images/about-band.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+a {
   padding: 0;
   margin: 15px 0 15px 0;
   color: #f27da6;
@@ -103,6 +118,8 @@ h5 {
 }
 
 .footer-text {
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
   color: #ffffff;
 }
 
@@ -111,7 +128,7 @@ h5 {
   padding: 5px 25px 35px 15px;
 }
 
-.social-links{
+.social-links {
   text-align: left;
 }
 
@@ -119,10 +136,79 @@ h5 {
   text-align: right;
 }
 
-.center-align{
+.center-align {
   text-align: center;
 }
 
-.nav-clear{
+.nav-clear {
   margin-bottom: 50px;
+}
+
+.social-box {
+  background-image: url("../images/about-band.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 150px;
+  margin: 0;
+}
+
+
+/*------------------------------------------------------ about.html ----------*/
+
+.band-pic {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 150px;
+  margin: 0;
+}
+
+.band-info {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 150px;
+  margin: 0;
+  opacity: 0.5;
+}
+
+.lead-pic {
+  background-image: url("../images/kevin-mcguire-c13.png");
+}
+
+.lead-info {
+  background-image: url("../images/kevin-mcguire-c13.png");
+}
+
+.guitarist-pic {
+  background-image: url("../images/dale-gardner-c13.png");
+}
+
+.guitarist-info {
+  background-image: url("../images/dale-gardner-c13.png");
+}
+
+.bassist-pic {
+  background-image: url("../images/scot-macleod-c13.png");
+}
+
+.bassist-info {
+  background-image: url("../images/scot-macleod-c13.png");
+}
+
+.drummer-pic {
+  background-image: url("../images/lewis-harwood-c13.png");
+}
+
+.drummer-info {
+  background-image: url("../images/lewis-harwood-c13.png");
+}
+
+p a {
+  padding: 0;
+  margin: 15px 0 15px 0;
+  color: #5dc41d;
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
 }
