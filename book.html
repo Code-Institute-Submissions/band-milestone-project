@@ -10,7 +10,8 @@
 </head>
 
 <body>
-        <header>
+    <!-- The <header> contains navigation links and code used to bundle navigation on mobile devices, same for all pages except index.html -->
+    <header>
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -35,7 +36,7 @@
             </div>
         </nav>
     </header>
-
+    <!-- The <section> is unique to each page. And will have content tailoried to that page name -->
     <section>
         <div class="nav-clear"></div>
         <div class="container-fluid">
@@ -51,8 +52,7 @@
             </div>
         </div>
     </section>
-
-
+    <!-- Footer contains 'about us' , a link to email client for availability, and links to social media -->
      <footer>
         <div class="container-fluid">
             <div class="row footer-box">
@@ -61,15 +61,19 @@
                     <p class="inline-block footer-text">
                         We are a punk rock band from Glasgow. We are band who stand out from the crowd with our upbeat mixture of AltRock and Punk Rock styles, Century Thirteen are not afraid to have fun exploring new sounds.
                     </p>
+                    <div class="div-gap"></div>
                 </div>
+                
                 <div class="col-sm-4">
                     <h5 class="uppercase general-sub">Getting in touch</h5>
                     <p class="inline-block footer-text">
                         <!-- code to open email client to get in touch -->
                         <a href="mailto:centurythirteen13@gmail.com?subject = Bookings&body = Message">
-                            Bookings and availability
+                            <button type="button" class="btn btn-success">Booking and Availability</button>
                         </a>
+                        <div class="div-gap"></div>
                 </div>
+                
                 <div class="col-sm-4">
                     <h5 class="uppercase general-sub">Our Social</h5>
                     <ul class="list-inline social-links">
@@ -79,6 +83,7 @@
                         <li><a target="_blank" href="https://www.youtube.com/channel/UCf67dZlCzHUHpCxW_QejhEw"><i class="fa fa-youtube"></i></a></li>
                     </ul>
                 </div>
+                <div class="div-gap"><p>2019</p></div>
             </div>
         </div>
     </footer>

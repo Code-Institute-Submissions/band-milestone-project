@@ -32,6 +32,11 @@ p a {
   text-align: center;
 }
 
+.btn-default{
+ background-color: #f27da6;
+ border-color: #f27da6;
+}
+
 /*----------targets links in list items in unordered lists---*/
 
 ul li a {
@@ -64,7 +69,6 @@ ul li a {
 }
 
 .div-gap {
-  background-color: #121110;
   height: 65px;
 }
 
@@ -101,10 +105,10 @@ a {
 
 .btn {
   margin: 15px;
-  background-color: #f27da6;
   color: #ffffff;
-  border-color: #f27da6;
-  border-radius: 0;
+  border-radius: 1;
+  font-family: "Exo", sans-serif;
+  font-weight: 500;
 }
 
 .upcoming-btn {
@@ -129,10 +133,7 @@ a {
 .footer-box {
   background-color: #1e1e1e;
   padding: 5px 25px 35px 15px;
-}
-
-.social-links {
-  text-align: left;
+  text-align: center;
 }
 
 .align-right {
@@ -162,6 +163,11 @@ a {
 
 .spotify-fix {
   padding-top: 20px;
+}
+
+.booking-button{
+transform: translateY(60vh);
+text-align: center;
 }
 
 /*------------------------------------------------------ about.html ----------*/
@@ -203,7 +209,8 @@ a {
   font-family: "Exo", sans-serif;
   font-weight: 500;
   color: #fafafa;
-  padding: 30px 0px 30px 0px;
+  padding: 30px 20px 30px 20px;
   margin-bottom: 0px;
 
 }
+
