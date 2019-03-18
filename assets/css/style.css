@@ -214,3 +214,19 @@ text-align: center;
 
 }
 
+/*------------------------------------------------------ listen.html ----------*/
+
+.bandcamp-listen{
+  background-image: url("../images/bandcamp.png");
+  margin: 18px 0px 18px 0px;
+}
+
+.youtube-listen{
+  background-image: url("../images/youtube.png");
+   margin: 18px 0px 18px 0px;
+}
+
+.spotify-listen{
+  background-image: url("../images/spotify.png");
+   margin: 18px 0px 18px 0px;
+}
