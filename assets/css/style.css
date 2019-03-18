@@ -32,9 +32,41 @@ p a {
   text-align: center;
 }
 
-.btn-default{
- background-color: #f27da6;
- border-color: #f27da6;
+.btn-default {
+  background-color: #f27da6;
+  border-color: #f27da6;
+}
+
+.icons {
+  display: block;
+  text-align: center;
+  font-size: 60px;
+  color: #f27da6;
+  padding-bottom: 20px;
+}
+
+.social-icons {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  color: #808080;
+  padding-bottom: 20px;
+}
+
+a:hover,
+a:visited {
+  text-decoration: none;
+}
+
+.hvr-fade {
+  background-color: white;
+}
+
+.hvr-fade:hover,
+.hvr-fade:focus,
+.hvr-fade:active {
+  background-color: #5dc41d;
+  color: white;
 }
 
 /*----------targets links in list items in unordered lists---*/
@@ -165,9 +197,9 @@ a {
   padding-top: 20px;
 }
 
-.booking-button{
-transform: translateY(60vh);
-text-align: center;
+.booking-button {
+  transform: translateY(60vh);
+  text-align: center;
 }
 
 /*------------------------------------------------------ about.html ----------*/
@@ -209,24 +241,36 @@ text-align: center;
   font-family: "Exo", sans-serif;
   font-weight: 500;
   color: #fafafa;
-  padding: 30px 20px 30px 20px;
+  padding: 15px 20px 15px 20px;
   margin-bottom: 0px;
 
 }
 
-/*------------------------------------------------------ listen.html ----------*/
+/*----------------------------------------------------- listen.html ----------*/
 
-.bandcamp-listen{
+.bandcamp-listen {
   background-image: url("../images/bandcamp.png");
   margin: 18px 0px 18px 0px;
 }
 
-.youtube-listen{
+.youtube-listen {
   background-image: url("../images/youtube.png");
-   margin: 18px 0px 18px 0px;
+  margin: 18px 0px 18px 0px;
 }
 
-.spotify-listen{
+.spotify-listen {
   background-image: url("../images/spotify.png");
-   margin: 18px 0px 18px 0px;
+  margin: 18px 0px 18px 0px;
+}
+
+/*------------------------------------------------------- book.html ----------*/
+
+.sub-icons {
+  color: white;
+  font-size: 50px;
+}
+
+.book-crowd {
+  background-image: url("../images/crowd5.jpg");
+  min-height: 270px;
 }
