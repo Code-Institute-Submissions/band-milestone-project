@@ -84,9 +84,6 @@ Code was viewed in Chrome and Edge at desktop, tablet and small device sizes.
 Spotify and Twitter widgets stack rather than being side by side.
 - On smaller devices each section is stacked on top of one another and use the whole screens width, making the most of the room available.
 
-### Bugs
-
-
 ## Deployment
 
 Project was deployed to github via cloud9.
