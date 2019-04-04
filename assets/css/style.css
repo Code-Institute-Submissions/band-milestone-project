@@ -4,6 +4,7 @@
 /*------------------------------------------------------------- global use ---*/
 
 /*----targets links in paragraphs---*/
+
 p a {
   padding: 0;
   margin: 15px 0 15px 0;
@@ -83,7 +84,7 @@ ul li a {
 }
 
 .box-heading {
-  padding: 10px 10% 30px 10%;
+  padding: 10px 35px 30px 35px;
 }
 
 .box {
@@ -150,7 +151,6 @@ a {
 
 .footer-box {
   background-color: #1e1e1e;
-  padding: 5px 25px 35px 15px;
   text-align: center;
 }
 
@@ -203,7 +203,7 @@ a {
   font-family: "Exo", sans-serif;
   font-weight: 500;
   color: #fafafa;
-  padding: 0px 5px 5px 5px;
+  padding: 0px 15px 5px 15px;
 }
 
 .lead-pic {
@@ -258,4 +258,14 @@ a {
 .book-crowd {
   background-image: url("../images/crowd5.jpg");
   min-height: 270px;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
 }
