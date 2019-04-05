@@ -1,6 +1,7 @@
 # Century Thirteen band website
 
-This website allows existing and new fans to discover a bit about the band "Century Thirteen". It's a place to find information about the bands latest ventures and future gigs. It allows fans to discover the newest songs and bands origins. It provides a gateway for "century Thitreens" social media accounts.  Potential bookers can easily contact the band.
+This website allows existing and new fans to discover a bit about the band "Century Thirteen". It's a place to find information about the bands latest ventures and future gigs. It allows fans to discover the newest songs and bands origins. It provides a gateway for Century Thirteen's social media accounts.  Potential bookers can easily contact the band.
+
 Visit the site [here](https://kennedydmb.github.io/band-milestone-project/index.html)
  
 ## UX
